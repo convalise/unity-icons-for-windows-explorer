@@ -6,7 +6,9 @@ Are you tired of looking into blank files while working on your favorite Unity p
 
 ![before](Preview/mix-after.png)
 
-Jokes aside, this project provides Unity icons to be viewed within the Windows Explorer and help developers and artists work better and prevent mistakes, specially when checking the version control changes list before commiting on most popular programs like [TortoiseSVN](https://tortoisesvn.net), [TortoiseGIT](https://tortoisegit.org) or [Plastic SCM](https://www.plasticscm.com).
+Jokes aside, this project provides Unity icons to be viewed within the Windows Explorer and help developers and artists work better and prevent mistakes, specially when checking the version control changes list before committing on most popular programs like [TortoiseSVN](https://tortoisesvn.net), [TortoiseGIT](https://tortoisegit.org) or [Plastic SCM](https://www.plasticscm.com).
+
+Works on both Windows 10 and 11 (and most likely on the older ones as well).
 
 Most of the icons are 1:1 copies of the originals, but there are some exceptions:
 - A `meta` icon, not originally provided by Unity, was designed to not draw too much attention from the main files and be almost invisible while still showing it is there and your GUIDs are safe.
