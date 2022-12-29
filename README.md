@@ -6,14 +6,14 @@ Are you tired of looking into blank files while working on your favorite Unity p
 
 ![before](Preview/mix-after.png)
 
-Jokes aside, this project provides Unity icons to be viewed within the Windows Explorer and help developers and artists work better and prevent mistakes, specially when checking the version control changes list before committing on most popular programs like [TortoiseSVN](https://tortoisesvn.net), [TortoiseGIT](https://tortoisegit.org) or [Plastic SCM](https://www.plasticscm.com).
+Jokes aside, this project provides Unity icons to be viewed within the Windows Explorer and applications which use the default Windows Explorer API. The motivation is to help developers and artists work better by organizing their assets and preventing mistakes, specially when checking the version control change list before committing on most popular programs like [TortoiseSVN](https://tortoisesvn.net), [TortoiseGIT](https://tortoisegit.org) or [Plastic SCM](https://www.plasticscm.com).
 
 Works on both Windows 10 and 11 (and most likely on the older ones as well).
 
 Most of the icons are 1:1 copies of the originals, but there are some exceptions:
 - A `meta` icon, not originally provided by Unity, was designed to not draw too much attention from the main files and be almost invisible while still showing it is there and your GUIDs are safe.
 - Some of the icons have a modded version more faithful to the color palette; feel free to mix and match to your heart's content.
-- You may not see changes to some file types if you already have programs associated with them (e.g., image files); check the [known issues](#known-issues) section below for a fix.
+- You may not see changes to some file types if you already have applications associated with them (e.g., image files which are associated with Microsoft Photos by default); check the [known issues](#known-issues) section below for a fix.
 
 PS: The icons have nothing to do with the selected theme on Unity, or whether a PRO license is being used or not. They are just icons.
 
@@ -46,7 +46,7 @@ The provided uninstallation REG script can be used to remove the custom icons as
 
 ## Known Issues
 
-As mentioned before, some files like image or audio ones may not have their icons changed due to being associated with a program (thus using the icon provided by that program). For cases like this a little program called [Types by Evgeny Strunnikov](https://ystr.github.io/types) can be used. Just select the file type you want (e.g., mp3) and point to an icon provided by this icon pack (e.g., audioclip).
+As mentioned before, some files may not have their icons changed due to being associated with an application (thus using the icon provided by said application). This happens to the most common file types such as image, audio and video ones. For cases like this a little program called [Types by Evgeny Strunnikov](https://ystr.github.io/types) can be used: just select the file type you want (e.g., mp3) and point to an icon (e.g., audioclip).
 
 ## Credits
 
